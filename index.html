@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- FONT-AWESOME LINK -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- GOOGLE-FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Nerko+One&family=Playwrite+CU:wght@100..400&family=Sevillana&family=Solway:wght@300;400;500;700;800&display=swap"
+        rel="stylesheet">
+    <!-- animate.style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- AOS ANIMATION -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="container">
+        <!-- Navigation -->
+        <nav>
+            <!-- Logo -->
+            <img class="logo" src="./images/logo.png" alt="logo">
+            <!-- Links -->
+            <ul>
+                <li class="list-items"><a href="#" class="links">Home</a></li>
+                <li class="list-items"><a href="#about" class="links">About</a></li>
+                <li class="list-items"><a href="#skills" class="links">Skills</a></li>
+                <li class="list-items"><a href="#contact" class="links">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Home -->
+        <section id="home">
+            <div class="home-content">
+                <h1 class="animate__animated animate__fadeInLeft" id="username">I'm Vivianne<span id="lname">
+                        Miedema</span></h1>
+                <p id="user-details">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque <br>
+                    dignissimos consectetur corrupti vero? Porro doloribus
+                </p>
+                <a id="download" href="./Aswin Chandran CV.pdf" download>DOWNLOAD CV</a>
+            </div>
+            <div class="home-image">
+                <img id="shape" class="group-1" src="./images/women-background.png" alt="background image shape">
+                <img id="girl" class="group-1" src="./images/women.png" alt="lady image">
+            </div>
+        </section>
+        <!-- About -->
+        <section id="about">
+            <div class="section-head">
+                <h2 class="main-head">About Me</h2>
+                <span class="subhead">Introduction</span>
+            </div>
+            <div class="about-body">
+                <div data-aos="fade-right" class="about-image">
+                    <img class="img1" src="./images/About_img.jpg" alt="">
+                </div>
+                <div class="about-content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis dolor facere accusantium non
+                        deserunt iure veniam dolorem dolorum consequuntur. Nemo non dolor sunt excepturi, adipisci
+                        reprehenderit beatae dolorem autem velit?</p>
+                    <div class="informations">
+                        <div class="info-box">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Vivianne Miedema</span>
+                        </div>
+                        <div class="info-box">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>992502921</span>
+                        </div>
+                        <div class="info-box">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>viviannemiedema@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Skill -->
+        <section id="skills">
+            <div class="section-head">
+                <h2 class="main-head">Skills</h2>
+                <span class="subhead">My Skills</span>
+            </div>
+            <div class="skill-content">
+                <div class="progress-bars">
+                    <div class="bars">
+                        <h3 class="bar-head">Ball Control</h3>
+                        <span class="bar-percent">89%</span>
+                        <div class="base-bar"></div>
+                        <div data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="base-bar html-bar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="bar-head">Dribbling</h3>
+                        <span class="bar-percent">83%</span>
+                        <div class="base-bar"></div>
+                        <div data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="base-bar css-bar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="bar-head">Passing</h3>
+                        <span class="bar-percent">71%</span>
+                        <div class="base-bar"></div>
+                        <div data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="base-bar js-bar"></div>
+                    </div>
+                    <d iv class="bars">
+                        <h3 class="bar-head">Heading Accuracy</h3>
+                        <span class="bar-percent">79%</span>
+                        <div class="base-bar"></div>
+                        <div data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="base-bar react-bar"></div>
+                    </d>
+                </div>
+                <div data-aos="fade-left" class="skill-image">
+                    <img width="100%" height="400px" class="my-skills"
+                        src="./images/skills-img.jpg"
+                        alt="">
+                </div>
+            </div>
+        </section>
+        <!-- Contact -->
+        <section id="contact">
+            <div class="section-head">
+                <h2 class="main-head"> Contacts</h2>
+                <span class="subhead">My Contacts</span>
+            </div>
+            <div class="icon-collections">
+                <!-- EMAIL -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/aswin-chandran-8738012b4/" target="_blank"><i
+                            class="fa-solid fa-envelope brands"></i></a>
+                </div>
+                <!-- YOUTUBE -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/aswin-chandran-8738012b4/" target="_blank"><i
+                            class="fa-brands fa-youtube brands"></i></a>
+                </div>
+                <!-- INSTAGRAM -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/aswin-chandran-8738012b4/" target="_blank"><i
+                            class="fa-brands fa-instagram brands"></i></a>
+                </div>
+                <!-- FACEBOOK -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/aswin-chandran-8738012b4/" target="_blank"> <i
+                            class="fa-brands fa-facebook-f brands"></i></a>
+                </div>
+                <!-- TWITTER -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/aswin-chandran-8738012b4/" target="_blank"><i
+                            class="fa-brands fa-twitter brands"></i></a>
+                </div>
+                <!--WHATSAPP-->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/aswin-chandran-8738012b4/" target="_blank"><i
+                            class="fa-brands fa-whatsapp brands"></i></a>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer>
+            <p id="copyright">Copyright © 2024 All Rights Reserved to &reg; Vivianne Miedema</p>
+            <div class="icon up-arrow">
+                <a href="#container"><i class="fa-solid fa-angle-up brands"></i></a>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</html>
