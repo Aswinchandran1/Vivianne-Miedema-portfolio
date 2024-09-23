@@ -61,8 +61,8 @@ nav{
     margin-top: 30px;
 }
 .home-image{
-    width: 40%;
-    height: 70%;
+    width: 45%;
+    height: 75%;
     position: absolute;
     right: 30px;
     bottom: 0px;
@@ -164,6 +164,7 @@ nav{
     background: orange;
     width: 79%;
 }
+
 #contact{
     margin: 6% 6% 0px 6%;
 }
@@ -230,8 +231,6 @@ footer{
 ::-webkit-scrollbar-track{
     background-color: azure;
 }
-
-
 ::-webkit-scrollbar-thumb{
     background: orange;
     border-radius: 10px;
